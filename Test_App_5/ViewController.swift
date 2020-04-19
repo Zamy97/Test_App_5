@@ -58,6 +58,8 @@ class ViewController: UIViewController {
     
 }
 
+// I am really confused about this thing and i need help understanding these two functions,
+// I am really confused about this thing and i need help understanding these two functions,
 extension ViewController: UNUserNotificationCenterDelegate {
     func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler completionHandler: (UNNotificationPresentationOptions) -> Void) {
     // some other way of handling notification
@@ -67,7 +69,6 @@ extension ViewController: UNUserNotificationCenterDelegate {
     func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: () -> Void) {
         print("Will work")
     }
-
 }
 
 
