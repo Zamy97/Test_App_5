@@ -68,12 +68,13 @@ class ViewController: UIViewController {
 extension ViewController: UNUserNotificationCenterDelegate {
     func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler completionHandler: (UNNotificationPresentationOptions) -> Void) {
     // some other way of handling notification
-    completionHandler([.alert, .sound])
+//    completionHandler([.alert, .sound])
+        completionHandler([.sound, .alert])
     }
     // I am really confused about this thing and i need help understanding these two functions,
-    func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: () -> Void) {
-        print("Will work")
-    }
+//    func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: () -> Void) {
+//        print("Will work")
+//    }
 }
 
 
