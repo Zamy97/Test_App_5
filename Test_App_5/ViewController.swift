@@ -60,6 +60,8 @@ class ViewController: UIViewController {
 
 // I am really confused about this thing and i need help understanding these two functions,
 // I am really confused about this thing and i need help understanding these two functions,
+// Apprantly these two function triggers the notification while the user has the notification open.
+
 extension ViewController: UNUserNotificationCenterDelegate {
     func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler completionHandler: (UNNotificationPresentationOptions) -> Void) {
     // some other way of handling notification
