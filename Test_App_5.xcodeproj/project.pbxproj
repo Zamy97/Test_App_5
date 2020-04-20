@@ -16,6 +16,7 @@
 		25431E61244D5CAD0024C751 /* Resources_Links.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25431E60244D5CAD0024C751 /* Resources_Links.swift */; };
 		25431E66244D66840024C751 /* azan_25_secs.wav in Resources */ = {isa = PBXBuildFile; fileRef = 25431E65244D66840024C751 /* azan_25_secs.wav */; };
 		25431E6A244D698D0024C751 /* azan.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 25431E69244D698D0024C751 /* azan.aiff */; };
+		25431E6C244D77680024C751 /* fajr_azan.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 25431E6B244D77680024C751 /* fajr_azan.aiff */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		25431E64244D64F80024C751 /* azan_25_secs.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = azan_25_secs.caf; sourceTree = "<group>"; };
 		25431E65244D66840024C751 /* azan_25_secs.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = azan_25_secs.wav; sourceTree = "<group>"; };
 		25431E69244D698D0024C751 /* azan.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = azan.aiff; sourceTree = "<group>"; };
+		25431E6B244D77680024C751 /* fajr_azan.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = fajr_azan.aiff; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				25431E69244D698D0024C751 /* azan.aiff */,
+				25431E6B244D77680024C751 /* fajr_azan.aiff */,
 				2511502B244BF321003CF6CD /* AppDelegate.swift */,
 				2511502D244BF321003CF6CD /* SceneDelegate.swift */,
 				2511502F244BF321003CF6CD /* ViewController.swift */,
@@ -146,6 +149,7 @@
 			files = (
 				25115038244BF324003CF6CD /* LaunchScreen.storyboard in Resources */,
 				25431E66244D66840024C751 /* azan_25_secs.wav in Resources */,
+				25431E6C244D77680024C751 /* fajr_azan.aiff in Resources */,
 				25115035244BF324003CF6CD /* Assets.xcassets in Resources */,
 				25431E6A244D698D0024C751 /* azan.aiff in Resources */,
 				25115033244BF321003CF6CD /* Main.storyboard in Resources */,

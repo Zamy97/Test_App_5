@@ -34,13 +34,13 @@ class ViewController: UIViewController {
         content.body = "This is example how to create "
         content.badge = 1
         
-        let audioName = UNNotificationSoundName("azan.aiff")
+        let audioName = UNNotificationSoundName("fajr_azan.aiff")
         
         content.sound = UNNotificationSound(named: audioName)
         content.categoryIdentifier = "confusion"
                 
 
-        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 5, repeats: false)
+        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 10, repeats: false)
                 
         let requestIdentifier = "Local Notification"
                 
