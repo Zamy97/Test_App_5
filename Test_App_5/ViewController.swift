@@ -33,7 +33,10 @@ class ViewController: UIViewController {
         content.title = "My name is Zamy"
         content.body = "This is example how to create "
         content.badge = 1
-        content.sound = UNNotificationSound.default
+        
+        let audioName = UNNotificationSoundName("azan.aiff")
+        
+        content.sound = UNNotificationSound(named: audioName)
         content.categoryIdentifier = "confusion"
                 
 

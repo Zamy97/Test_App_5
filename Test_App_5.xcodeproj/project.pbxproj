@@ -13,6 +13,9 @@
 		25115033244BF321003CF6CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25115031244BF321003CF6CD /* Main.storyboard */; };
 		25115035244BF324003CF6CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25115034244BF324003CF6CD /* Assets.xcassets */; };
 		25115038244BF324003CF6CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25115036244BF324003CF6CD /* LaunchScreen.storyboard */; };
+		25431E61244D5CAD0024C751 /* Resources_Links.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25431E60244D5CAD0024C751 /* Resources_Links.swift */; };
+		25431E66244D66840024C751 /* azan_25_secs.wav in Resources */ = {isa = PBXBuildFile; fileRef = 25431E65244D66840024C751 /* azan_25_secs.wav */; };
+		25431E6A244D698D0024C751 /* azan.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 25431E69244D698D0024C751 /* azan.aiff */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,10 @@
 		25115034244BF324003CF6CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		25115037244BF324003CF6CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		25115039244BF324003CF6CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25431E60244D5CAD0024C751 /* Resources_Links.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources_Links.swift; sourceTree = "<group>"; };
+		25431E64244D64F80024C751 /* azan_25_secs.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = azan_25_secs.caf; sourceTree = "<group>"; };
+		25431E65244D66840024C751 /* azan_25_secs.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = azan_25_secs.wav; sourceTree = "<group>"; };
+		25431E69244D698D0024C751 /* azan.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = azan.aiff; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +63,27 @@
 		2511502A244BF321003CF6CD /* Test_App_5 */ = {
 			isa = PBXGroup;
 			children = (
+				25431E69244D698D0024C751 /* azan.aiff */,
 				2511502B244BF321003CF6CD /* AppDelegate.swift */,
 				2511502D244BF321003CF6CD /* SceneDelegate.swift */,
 				2511502F244BF321003CF6CD /* ViewController.swift */,
+				25431E60244D5CAD0024C751 /* Resources_Links.swift */,
+				25431E68244D67DE0024C751 /* Sounds */,
 				25115031244BF321003CF6CD /* Main.storyboard */,
 				25115034244BF324003CF6CD /* Assets.xcassets */,
 				25115036244BF324003CF6CD /* LaunchScreen.storyboard */,
 				25115039244BF324003CF6CD /* Info.plist */,
 			);
 			path = Test_App_5;
+			sourceTree = "<group>";
+		};
+		25431E68244D67DE0024C751 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				25431E65244D66840024C751 /* azan_25_secs.wav */,
+				25431E64244D64F80024C751 /* azan_25_secs.caf */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				25115038244BF324003CF6CD /* LaunchScreen.storyboard in Resources */,
+				25431E66244D66840024C751 /* azan_25_secs.wav in Resources */,
 				25115035244BF324003CF6CD /* Assets.xcassets in Resources */,
+				25431E6A244D698D0024C751 /* azan.aiff in Resources */,
 				25115033244BF321003CF6CD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,6 +162,7 @@
 				25115030244BF321003CF6CD /* ViewController.swift in Sources */,
 				2511502C244BF321003CF6CD /* AppDelegate.swift in Sources */,
 				2511502E244BF321003CF6CD /* SceneDelegate.swift in Sources */,
+				25431E61244D5CAD0024C751 /* Resources_Links.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
